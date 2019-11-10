@@ -596,7 +596,7 @@
     </h2>
     <ul>
       <li class="next">
-        前端开发者构建人们能摸得到的应用
+        前端开发者构建人们能看得到的应用
       </li>
       <li class="next">
         联合用户体验设计师才能将 SoLiD 带给普罗大众
@@ -657,6 +657,29 @@
 &lt;/LoggedIn&gt;</code></pre>
   </div>
 
+  <div class="cover slide" id="react">
+      <h2>
+        RDF.js VS LD-Flex
+      </h2>
+      <ul>
+          <li class="next">
+            RDF.js
+            <ul>
+                <li>
+                    <pre><code>const store = $RDF.graph();
+const fetcher = new $RDF.Fetcher(store);
+const fullName = store.any($RDF.sym(user), FOAF('name'));
+$('fullName').text(fullName && fullName)
+                    </code></pre>        
+                </li>
+              </ul>      
+          </li>
+          <li class="next">
+            LD-Flex
+          </li>
+      </ul>
+  </div>  
+
   <div class="toc slide" id="recap">
     <ul>
       <li class="next"><a href="#toc-universality">通用性和创新性</a></li>
@@ -697,7 +720,7 @@
   </div>
 
   <footer>
-    <p class="badge"><a href="https://github.com/RubenVerborgh/Solid-London-Meetup-2019">View on GitHub</a></p>
+    <p class="badge"><a href="https://github.com/leinue/solid-fcc-chengdu-2019">View on GitHub</a></p>
     <p class="license">
       ©2019 <a href="http://ivydom.com/">谢扬</a> –
       Except where otherwise noted,
